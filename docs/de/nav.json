@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "title": "Erste Schritte",
+      "items": [
+        {
+          "label": "Übersicht",
+          "slug": "overview"
+        },
+        {
+          "label": "Addon-Struktur",
+          "slug": "addon-structure"
+        },
+        {
+          "label": "Erstes Addon",
+          "slug": "first-addon"
+        }
+      ]
+    },
+    {
+      "title": "Discord API",
+      "items": [
+        {
+          "label": "Slash Commands",
+          "slug": "slash-commands"
+        }
+      ]
+    }
+  ]
+}
