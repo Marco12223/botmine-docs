@@ -1,25 +1,37 @@
 ---
+
 title: Lua Addon SDK
-description: Learn how to build safe Lua addons for BotMine.
+description: Learn how to build secure Lua addons for BotMine.
 icon: rocket_launch
----
+-------------------
 
-## Overview
+## Thank you for your interest
 
-BotMine addons run inside a controlled Lua runtime.
+Thank you for your interest in our docs and the BotMine product.
 
-You get access to a safe Discord API without touching JDA, the bot token or internal core data.
+We are currently still building and improving everything step by step. Because of that, some pages may not be fully finished yet, and certain content may change over time.
 
-## Example
+## Contributing
 
-```lua
-discord.onReady(function(event)
-    logger.info("Addon loaded on " .. event.botName)
-end)
-```
+Want to help us improve the docs? We would really appreciate it.
 
-## Rules
+Our documentation should not only explain how BotMine works, but also help developers build their own addons in a safe and understandable way. If you find mistakes, have ideas, or want to contribute content yourself, you are welcome to help us improve the docs.
 
-- Use only the exposed APIs.
-- Check permissions before moderation actions.
-- Never block the Lua runtime thread.
+## What this page will cover
+
+This page will explain how to build your own BotMine addons using the Lua Addon SDK.
+
+Planned topics include:
+
+* Lua Runtime basics
+* safe usage of the BotMine Discord API
+* events and slash commands
+* permissions and security rules
+* examples for custom addons
+* best practices for publishable Marketplace addons
+
+## Current status
+
+The Lua Addon SDK documentation is not fully available yet.
+
+Feel free to check back later or help us build this section together.

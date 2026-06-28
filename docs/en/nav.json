@@ -6,23 +6,6 @@
         {
           "label": "Overview",
           "slug": "overview"
-        },
-        {
-          "label": "Addon structure",
-          "slug": "addon-structure"
-        },
-        {
-          "label": "First addon",
-          "slug": "first-addon"
-        }
-      ]
-    },
-    {
-      "title": "Discord API",
-      "items": [
-        {
-          "label": "Slash commands",
-          "slug": "slash-commands"
         }
       ]
     }
