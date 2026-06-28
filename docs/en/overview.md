@@ -1,5 +1,4 @@
----
-
+-------------------
 title: Lua Addon SDK
 description: Learn how to build secure Lua addons for BotMine.
 icon: rocket_launch
