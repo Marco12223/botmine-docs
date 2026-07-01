@@ -6,6 +6,71 @@
         {
           "label": "Overview",
           "slug": "overview"
+        },
+        {
+          "label": "Upload addons",
+          "slug": "upload-addons"
+        }
+      ]
+    },
+    {
+      "title": "Lua SDK",
+      "items": [
+        {
+          "label": "Basics",
+          "slug": "lua-sdk"
+        },
+        {
+          "label": "Messages & Embeds",
+          "slug": "messages-embeds"
+        },
+        {
+          "label": "Events",
+          "slug": "events"
+        },
+        {
+          "label": "Slash Commands",
+          "slug": "slash-commands"
+        },
+        {
+          "label": "Interactions",
+          "slug": "interactions"
+        },
+        {
+          "label": "Guilds & Members",
+          "slug": "guilds-members"
+        },
+        {
+          "label": "Channels & Threads",
+          "slug": "channels-threads"
+        },
+        {
+          "label": "Config",
+          "slug": "config"
+        },
+        {
+          "label": "Storage",
+          "slug": "storage"
+        },
+        {
+          "label": "HTTP",
+          "slug": "http"
+        },
+        {
+          "label": "Scheduler",
+          "slug": "scheduler"
+        },
+        {
+          "label": "Logging & JSON",
+          "slug": "logging-json"
+        },
+        {
+          "label": "Permissions",
+          "slug": "permissions"
+        },
+        {
+          "label": "Presence",
+          "slug": "presence"
         }
       ]
     }

@@ -6,6 +6,71 @@
         {
           "label": "Übersicht",
           "slug": "overview"
+        },
+        {
+          "label": "Addons hochladen",
+          "slug": "addons-hochladen"
+        }
+      ]
+    },
+    {
+      "title": "Lua SDK",
+      "items": [
+        {
+          "label": "Grundlagen",
+          "slug": "lua-sdk"
+        },
+        {
+          "label": "Nachrichten & Embeds",
+          "slug": "messages-embeds"
+        },
+        {
+          "label": "Events",
+          "slug": "events"
+        },
+        {
+          "label": "Slash Commands",
+          "slug": "slash-commands"
+        },
+        {
+          "label": "Interaktionen",
+          "slug": "interactions"
+        },
+        {
+          "label": "Guilds & Member",
+          "slug": "guilds-members"
+        },
+        {
+          "label": "Channels & Threads",
+          "slug": "channels-threads"
+        },
+        {
+          "label": "Config",
+          "slug": "config"
+        },
+        {
+          "label": "Storage",
+          "slug": "storage"
+        },
+        {
+          "label": "HTTP",
+          "slug": "http"
+        },
+        {
+          "label": "Scheduler",
+          "slug": "scheduler"
+        },
+        {
+          "label": "Logging & JSON",
+          "slug": "logging-json"
+        },
+        {
+          "label": "Permissions",
+          "slug": "permissions"
+        },
+        {
+          "label": "Presence",
+          "slug": "presence"
         }
       ]
     }

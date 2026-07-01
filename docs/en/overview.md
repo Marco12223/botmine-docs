@@ -1,35 +1,52 @@
 ---
-title: Lua Addon SDK
-description: Learn how to build secure Lua addons for BotMine.
+title: BotMine Addon Development
+description: Develop, package, and publish secure BotMine addons.
 icon: rocket_launch
 ---
-## Thank you for your interest
 
-Thank you for your interest in our docs and the BotMine product.
+## Overview
 
-We are currently still building and improving everything step by step. Because of that, some pages may not be fully finished yet, and certain content may change over time.
+BotMine addons extend bots with custom functionality without requiring direct access to the Discord API or sensitive infrastructure. Addons run in a controlled Lua environment and use the BotMine Lua SDK as a safe interface for messages, slash commands, interactions, configuration, storage, HTTP, and logging.
 
-## Contributing
+This documentation is for creators who want to build, test, and publish their own addons in the BotMine Marketplace.
 
-Want to help us improve the docs? We would really appreciate it.
+## What you can build
 
-Our documentation should not only explain how BotMine works, but also help developers build their own addons in a safe and understandable way. If you find mistakes, have ideas, or want to contribute content yourself, you are welcome to help us improve the docs.
+An addon can:
 
-## What this page will cover
+* react to messages and events
+* register slash commands
+* use embeds, buttons, select menus, and modals
+* assign roles or run moderation actions
+* store persistent data in addon storage
+* call external APIs through the safe HTTP wrapper
+* provide configurable fields for bot installations
 
-This page will explain how to build your own BotMine addons using the Lua Addon SDK.
+Which actions an addon may perform depends on the requested permissions and the platform review.
 
-Planned topics include:
+## Typical workflow
 
-* Lua Runtime basics
-* safe usage of the BotMine Discord API
-* events and slash commands
-* permissions and security rules
-* examples for custom addons
-* best practices for publishable Marketplace addons
+1. Develop the addon locally.
+2. Create an `addon.yml` or `addon.yaml` manifest.
+3. Package the addon files as a ZIP.
+4. Create the addon in the dashboard.
+5. Upload the ZIP build.
+6. Submit the addon for review.
+7. After approval, the addon can be published in the Marketplace.
 
-## Current status
+## Important files
 
-The Lua Addon SDK documentation is not fully available yet.
+Every publishable build needs a manifest. The manifest must describe at least the ID, name, version, and entry file.
 
-Feel free to check back later or help us build this section together.
+```yaml
+id: my-addon
+name: My Addon
+version: 1.0.0
+entry: index.lua
+```
+
+The `entry` value must point to a file that exists inside the ZIP. During upload, the `id` is internally adjusted to the BotMine addon UUID.
+
+## Next steps
+
+Start with the guide for uploading and submitting addons. Then use the SDK pages to look up messages, events, storage, HTTP requests, and the other Lua APIs.
